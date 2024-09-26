@@ -28,12 +28,51 @@ const chatData = {
 "have a good night":"sound sleep",
 "sound sleep":"same to you",
    "abase":"sure",
+   "am doing well":"That's great",
+   "am doing good":"That's fine",
+   "prince":"yes plss. How can I help you? ",
+   "Prince":"yes plss. How can I help you? ",
    "fine":"TG",
    "fyn":"tnx be to God",
    "great":"bleesed be the name of the lord",
    "gr8":"bleesed be the name of the lord",
    "I love you":"I love you too",
    "am fine":"we thank the Almighty God",
+//    love matters
+"luv":"love💛",
+"love":"love💗",
+"Love":"love💗",
+"babe":"babe💙",
+"Babe":"babe💙",
+"Baby":"babe💙",
+"baby":"babe💙",
+"bby":"babe💙",
+"sweetherat":"sweetheart",
+"sweetie":"sweetie",
+"darling":"darling",
+"honey":"honey",
+"baby boy":"yes darling",
+"babe boy":"baby",
+"bby boy":"bby ",
+"odo ":" odo💚",
+"Odo ":"odo💚 ",
+"Afful ":"Yes pls do you need my help? ",
+"afful":"Yes pls do you need my help? ",
+"heyya":"heyya ",
+"Heyya":"heyya ",
+
+// conditions and emotions
+"wow":"😲",
+"woow":"😲",
+"sweet":"sweet🍧",
+"so sweet":"so sweet🍧",
+
+
+
+
+
+
+//    greetings
    "Good morning":"good morning how are you doing",
    "good morning":"good morning how are you doing",
    "gud morning":"good morning how are you doing",
@@ -87,7 +126,7 @@ const chatData = {
 "what is your favorite song": "Redemption song by Bob Marley is my favorite song🎵",
 "what is your favorite football club": "Chelsea is my favorite football club",
 "who is your girlfriend": "Lovia Ewusi Rich is my girlfriend",
-    // Add more questions and answers here...
+    
 };
 
 // Get chat container and user input elements
