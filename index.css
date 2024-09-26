@@ -44,6 +44,10 @@
     cursor: pointer;
 }
 body{
-background-color: rgba(100, 148, 237, 0.468);
+background-color: rgb(100, 148, 237);
+background-blend-mode: multiply;
+background-image: url(me.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
