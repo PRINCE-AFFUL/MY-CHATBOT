@@ -1,6 +1,15 @@
 // Store questions and answers in an object
 const chatData = {
+    "I can't ":"ah okay",
+    "what are you doing":"Am answering your questions",
+   "what is your purpose":"My purpose is to help make the world a better place to live by providing individuals with the needed information that they will seek from me",
     "hey":"hey😎",
+    "hi":"hi🙄 how are you doing",
+    "what is your name":"My name is Prince Afful",
+    "okay":"okay😐",
+    "kul":"okay",
+    "adey":"okay",
+    "sap":"adey. Ur side?",
     "hello": "Hi! How are you?",
     "am fine": "we thank God🙏",
     "how about you?": "am also fine by God's grace",
@@ -48,7 +57,7 @@ function handleUserInput() {
         addMessage('bot', botResponse);
     } else {
         // Default response if no match found
-        addMessage('bot', 'Sorry, I didn\'t understand that.');
+        addMessage('bot', 'Sorry, I didn\'t understand that so can you pls try to rephrase your statement?');
     }
 }
 
