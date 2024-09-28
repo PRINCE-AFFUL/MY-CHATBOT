@@ -99,6 +99,8 @@ const chatData = {
 "gd evening":"good evening how are you doing",
 "good day":"good day",
 
+"always":"yh",
+"yh always":"",
    "tnx":"welcome",
    "good":"wtG",
    "yo":"yo",

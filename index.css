@@ -47,4 +47,119 @@ body{
 background-color: rgb(100, 148, 237);
 
 }
+.wrao{
+    display: flex;
+}
 
+
+
+
+
+
+
+
+
+  /* MEDIA QERIES */
+  @media (max-width: 480px) {
+    /* styles for small mobile devices */
+    body{
+
+background-color: pink;
+
+    }
+#send-btn{
+    margin-top: -5rem;
+}
+#user-input{
+    margin-left: 1.8rem;
+}
+    }
+    
+  
+  
+  
+  /* - Medium (481px - 640px): */
+  
+  @media (min-width: 481px) and (max-width: 640px) {
+    /* styles for medium mobile devices */
+    body{
+
+        background-color: lightblue;
+        
+            }
+        #send-btn{
+            margin-top: -5rem;
+        }
+        #user-input{
+            margin-left: 1.8rem;
+        }
+
+  }
+  
+  
+  /* - Large (641px - 768px): */
+  
+  @media (min-width: 641px) and (max-width: 768px) {
+    /* styles for large mobile devices */
+    body{
+ 
+    }
+    .container{
+      font-size: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .question_1{
+      padding: 5%;
+      
+      width: 30rem;
+    }
+  
+  }
+  
+  
+  /* Tablets
+  
+  - Small (769px - 960px): */
+  
+  @media (min-width: 769px) and (max-width: 960px) {
+    /* styles for small tablets */
+    body{
+
+    }
+
+
+  }
+  
+  
+  /* - Medium (961px - 1024px): */
+  
+  @media (min-width: 961px) and (max-width: 1024px) {
+    /* styles for medium tablets */
+    body{
+
+    }
+
+  }
+  
+  
+  /* - Large (1025px - 1280px): */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* styles for large tablets */
+    body{
+     
+    }
+    .container{
+        margin-left: 4rem;
+    }
+    .first_image{
+width: 90%;
+margin-left: 5%;
+    }
+.central_images{
+
+}
+  }

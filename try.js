@@ -1,34 +1,59 @@
-//Store questions and answers in an object
+//store various messages and it's response
 const chatData={
-    "hi":"hi how are you doing?",
-    "am fine":"we thank God",
-    "what is your name":"my name is Prince Kobbinah Afful",
-    "good morning":"good morning",
-    "good afternoon":"good afternoon",
-    "good evening":"good evening",
+    "hello":"hi",
+    "how are you?":"pls am fine",
+    "sap":"adey",
+};
 
-}
-
-//Get elements of various user inputs
+//get the various elements
 const chatContainer=document.getElementById('chat-container');
 const userInput=document.getElementById('user-input');
 
-//Function to add message to chat container
-function addMessage(message,type){
-    const messageDiv=document.createElement('Div');
-    messageDiv.classList.add('message',type === 'user' ? 'right' : 'left' );
-    messageDiv.textContent=message;
+//finction to add message to ....
+function addMessage(type, message) {
+    const messageDiv = document.createElement('div');
+    messageDiv.classList.add('message', type === 'user' ? 'right' : 'left');
+    messageDiv.textContent = message;
     chatContainer.appendChild(messageDiv);
-}
+};
 
-//Function to handle user inputs
-function handleuserinput(){
+
+//function to handle user input
+function handleUserInput(){
     const userMessage = userInput.ariaValueMax.trim().toLocaleLowerCase();
-    const botResponse = chatData[userMessage];
+    const botResponse=chatData[userMessage];
 
-    //Clear user input field
-    userInput.value = '';
 
-    //add user message to chat container
-    addMessage('user',userMessage);
+//clear user input field
+userInput.value='';
+
+//add user message to chat container
+addMessage('user',userMessage);
+
+//check if the bot has a response
+if (botResponse){
+    addMessage('bot',botResponse)
+}else{
+    //dliver default message
+    addMessage('bot','sorry I do not have an answer to your question')
 }
+
+};
+
+//add event listener to the send button
+document.getElementById('send-btn').addEventListener('click',handleUserInput);
+
+//store messages in local storage
+function storedMessages(){
+    const storedMessages=localStorage.getItem('chat-messages')
+
+    if(storedMessages){
+        chatContainer.innerHTML=storedMessages;
+    }
+};
+
+// Store messages on page unload
+window.onunload = storeMessages;
+
+// Retrieve stored messages on page load
+retrieveMessages();
