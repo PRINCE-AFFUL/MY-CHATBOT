@@ -124,10 +124,14 @@ const chatData = {
     "how old are you": "am 22 years old",
     "what is your favorite food": "rice and egg stew is my favorite food🍚",
      "what is your favorite car": "Range rover is my favorite car🚔",
-"what is your favorite color": "blue is my favorite car🟦",
+"what is your favorite color": "blue is my favorite color🟦",
 "what is your favorite song": "Redemption song by Bob Marley is my favorite song🎵",
 "what is your favorite football club": "Chelsea is my favorite football club",
 "who is your girlfriend": "Lovia Ewusi Rich is my girlfriend",
+
+"who taught you how to code?": "Emmanuel Oppong Couffie",
+"briefly describe him": "Emmanuel Oppong Couffie is a Software Engineer who completed TTU this year. He has taught over 100 students in coding including myself. He is such a kind hearted person with passion in teaching.",
+"so do you want to me like him??": "yes of course and even beyond",
     
 };
 
